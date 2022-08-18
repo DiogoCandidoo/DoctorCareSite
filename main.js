@@ -1,5 +1,3 @@
-
-
 function onScroll() {
     if (scrollY > 0 ) {
         document.body.navigation.classList.add('scroll')
@@ -17,3 +15,4 @@ function openMenu() {
 function closeMenu() {
     document.body.classList.remove('menu-expanded')
 }
+
