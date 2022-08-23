@@ -1,8 +1,8 @@
 function onScroll() {
     if (scrollY > 0 ) {
-        document.body.navigation.classList.add('scroll')
+        topBar.classList.add('scroll')
     } else {
-        navigation.classList.remove('scroll')
+        topBar.classList.remove('scroll')
     }
     
     

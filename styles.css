@@ -85,6 +85,7 @@ nav .wrapper {
 
 nav.scroll {
   background-color: var(--primary-color);
+  transition: 0.5s;
  
 }
 
@@ -257,6 +258,12 @@ h1 {
   gap: 1.6rem;
 
   margin: 0 auto;
+
+  transition: 0.5s;
+}
+
+.button-whats:hover {
+  opacity: 0.8;
 }
 
 .img_1 {
